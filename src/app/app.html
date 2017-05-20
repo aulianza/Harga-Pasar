@@ -2,7 +2,7 @@
 
   <ion-content>
 
-    <img src="assets/img/dreamhouse-logo.svg" class="menu-logo"/>
+    <img src="http://oi63.tinypic.com/wiaj5f.jpg" class="menu-logo"/><br><br>
 
     <ion-list>
       <ion-list-header>
@@ -16,9 +16,9 @@
 
     <ion-list>
       <ion-list-header>
-        Tentang
+        Daftar Harga
       </ion-list-header>
-      <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">
+      <button menuClose ion-item *ngFor="let menuItem of priceMenuItems" (click)="openPage(menuItem)">
         <ion-icon item-left [name]="menuItem.icon"></ion-icon>
         {{menuItem.title}}
       </button>
@@ -26,9 +26,9 @@
 
     <ion-list>
       <ion-list-header>
-        Akun
+        Tentang
       </ion-list-header>
-      <button menuClose ion-item *ngFor="let menuItem of accountMenuItems" (click)="openPage(menuItem)">
+      <button menuClose ion-item *ngFor="let menuItem of helpMenuItems" (click)="openPage(menuItem)">
         <ion-icon item-left [name]="menuItem.icon"></ion-icon>
         {{menuItem.title}}
       </button>

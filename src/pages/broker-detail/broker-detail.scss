@@ -1,3 +1,6 @@
+page-broker-detail {
+  font-family: 'Imprima' !important;
+}
 .broker {
 
   ion-card {
@@ -11,6 +14,7 @@
       color: #FFFFFF;
       text-align: center;
       padding-bottom: 28px;
+      font-family: 'Imprima' !important;
 
       img {
         height: 160px;
@@ -25,11 +29,13 @@
         font-size: 2.5rem;
         margin-top: .5rem;
         color: white;
+        font-family: 'Imprima' !important;
       }
 
       h3 {
         font-size: 1.8rem;
         color: white;
+        font-family: 'Imprima' !important;
       }
 
     }

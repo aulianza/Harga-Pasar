@@ -1,9 +1,14 @@
+page-about {
+  font-family: 'Imprima' !important;
+}
+
 .about-header {
   background-color: #434954;
   padding: 16px;
   width: 100%;
   min-height: 150px;
   text-align: center;
+  font-family: 'Imprima' !important;
 }
 
 .about-header img {
@@ -16,6 +21,7 @@
 .about-info p {
   color: #697072;
   text-align: left;
+  font-family: 'Imprima' !important;
 }
 
 .about-info ion-icon {

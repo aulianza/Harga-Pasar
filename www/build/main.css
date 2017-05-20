@@ -24316,6 +24316,11 @@ ion-navbar.toolbar {
 .menu-logo {
   height: 80px;
   margin: 12px 0 0 90px;
+  font-family: 'Imprima' !important;
+}
+
+page-about {
+  font-family: 'Imprima' !important;
 }
 
 .about-header {
@@ -24324,6 +24329,7 @@ ion-navbar.toolbar {
   width: 100%;
   min-height: 150px;
   text-align: center;
+  font-family: 'Imprima' !important;
 }
 
 .about-header img {
@@ -24336,6 +24342,7 @@ ion-navbar.toolbar {
 .about-info p {
   color: #697072;
   text-align: left;
+  font-family: 'Imprima' !important;
 }
 
 .about-info ion-icon {
@@ -24357,6 +24364,10 @@ ion-navbar.toolbar {
   margin-right: 10px;
 }
 
+page-broker-detail {
+  font-family: 'Imprima' !important;
+}
+
 .broker ion-card {
   margin-top: 100px;
   overflow: visible;
@@ -24367,6 +24378,7 @@ ion-navbar.toolbar {
   color: #FFFFFF;
   text-align: center;
   padding-bottom: 28px;
+  font-family: 'Imprima' !important;
 }
 
 .broker ion-card ion-card-content img {
@@ -24382,20 +24394,40 @@ ion-navbar.toolbar {
   font-size: 2.5rem;
   margin-top: .5rem;
   color: white;
+  font-family: 'Imprima' !important;
 }
 
 .broker ion-card ion-card-content h3 {
   font-size: 1.8rem;
   color: white;
+  font-family: 'Imprima' !important;
+}
+
+page-broker-list {
+  font-family: 'Imprima' !important;
+}
+
+page-favorite-list {
+  font-family: 'Imprima' !important;
+}
+
+page-property-detail {
+  font-family: 'Imprima' !important;
 }
 
 ion-note {
   color: #84BF41 !important;
   font-size: 1.4rem !important;
+  font-family: 'Imprima' !important;
+}
+
+page-property-list {
+  font-family: 'Imprima' !important;
 }
 
 .searchbar-input {
   box-shadow: none !important;
+  font-family: 'Imprima' !important;
 }
 
 ion-footer {
@@ -24404,6 +24436,7 @@ ion-footer {
 
 page-welcome {
   font-weight: 300;
+  font-family: 'Imprima' !important;
 }
 
 page-welcome ion-slide {
@@ -24419,8 +24452,9 @@ page-welcome ion-slide p {
   background-color: rgba(132, 191, 65, 0.8);
   color: #FFFFFF;
   padding: 28px 28px 48px 28px;
-  font-size: 2.7rem;
+  font-size: 1.7rem;
   margin-bottom: 0;
+  font-family: 'Imprima' !important;
 }
 
 page-welcome ion-slide img {

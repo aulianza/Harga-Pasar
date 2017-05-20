@@ -1,76 +1,49 @@
 let brokers: Array<any> = [
     {
         id: 1,
-        name: "Caroline Kingsley",
-        title: "Senior Broker",
-        phone: "617-244-3672",
-        mobilePhone: "617-244-3672",
+        jenis: "Sayuran",
+        jumlah: "125",
+        nama: "Bayam",
+        harga: "Rp 3000",
         email: "caroline@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/caroline_kingsley.jpg"
+        picture: "http://icons.iconarchive.com/icons/graphicloads/food-drink/256/carrot-2-icon.png"
     },
     {
         id: 2,
-        name: "Michael Jones",
-        title: "Senior Broker",
+        jenis: "Buah",
+        jumlah: "25",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
         email: "michael@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg"
+        picture: "http://icons.iconarchive.com/icons/graphicloads/food-drink/128/apple-2-icon.png"
     },
     {
         id: 3,
-        name: "Jonathan Bradley",
-        title: "Senior Broker",
+        jenis: "Rempah",
+        jumlah: "13",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
         email: "jonathan@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jonathan_bradley.jpg"
+        picture: "http://icons.iconarchive.com/icons/graphicloads/food-drink/128/garlic-icon.png"
     },
     {
         id: 4,
-        name: "Jennifer Wu",
-        title: "Senior Broker",
+        jenis: "Ikan",
+        jumlah: "23",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
         email: "jen@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg"
+        picture: "http://icons.iconarchive.com/icons/graphicloads/food-drink/128/burger-icon.png"
     },
     {
         id: 5,
-        name: "Olivia Green",
-        title: "Senior Broker",
+        jenis: "Daging",
+        jumlah: "125",
         phone: "617-244-3672",
         mobilePhone: "617-244-3672",
         email: "olivia@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/olivia_green.jpg"
+        picture: "http://icons.iconarchive.com/icons/graphicloads/food-drink/128/meat-icon.png"
     },
-    {
-        id: 6,
-        name: "Miriam Aupont",
-        title: "Senior Broker",
-        phone: "617-244-3672",
-        mobilePhone: "617-244-3672",
-        email: "miriam@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/miriam_aupont.jpg"
-    },
-    {
-        id: 7,
-        name: "Michelle Lambert",
-        title: "Senior Broker",
-        phone: "617-244-3672",
-        mobilePhone: "617-244-3672",
-        email: "michelle@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michelle_lambert.jpg"
-    },
-    {
-        id: 8,
-        name: "Victor Ochoa",
-        title: "Senior Broker",
-        phone: "617-244-3672",
-        mobilePhone: "617-244-3672",
-        email: "victor@ionicrealty.com",
-        picture: "https://s3-us-west-1.amazonaws.com/sfdc-demo/people/victor_ochoa.jpg"
-    }
 ];
 
 export default brokers;

@@ -1,6 +1,7 @@
 page-welcome {
 
   font-weight: 300;
+  font-family: 'Imprima' !important;
 
   ion-slide {
 
@@ -15,8 +16,9 @@ page-welcome {
       background-color: rgba(132, 191, 65, .8);
       color: #FFFFFF;
       padding: 28px 28px 48px 28px;
-      font-size: 2.7rem;
+      font-size: 1.7rem;
       margin-bottom: 0;
+      font-family: 'Imprima' !important;
     }
 
     img {

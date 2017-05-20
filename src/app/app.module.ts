@@ -43,7 +43,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     PropertyDetailPage,
     FavoriteListPage,
     BrokerListPage,
-    BrokerDetailPage
+    BrokerDetailPage  
   ],
   providers: [
     StatusBar,

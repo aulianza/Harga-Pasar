@@ -47,7 +47,7 @@ export class PropertyListPage {
 
     showMap() {
         setTimeout(() => {
-            this.map = leaflet.map("map").setView([42.361132, -71.070876], 14);
+            this.map = leaflet.map("map").setView([5.549138, 95.322434], 13);
             leaflet.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
                 attribution: 'Tiles &copy; Esri'
             }).addTo(this.map);

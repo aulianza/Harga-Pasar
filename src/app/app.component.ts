@@ -25,7 +25,7 @@ export class MyApp {
 
     appMenuItems: Array<MenuItem>;
 
-    accountMenuItems: Array<MenuItem>;
+    priceMenuItems: Array<MenuItem>;
 
     helpMenuItems: Array<MenuItem>;
 
@@ -33,19 +33,17 @@ export class MyApp {
         this.initializeApp();
 
         this.appMenuItems = [
-            {title: 'Pilih Pasar', component: PropertyListPage, icon: 'home'},
-            {title: 'Kategori', component: BrokerListPage, icon: 'people'},
+            {title: 'Beranda', component: WelcomePage, icon: 'home'},
+            {title: 'Informasi Pasar', component: PropertyListPage, icon: 'information-circle'},
             {title: 'Barang Favorit', component: FavoriteListPage, icon: 'star'},
-            {title: 'Boker', component: WelcomePage, icon: 'checkmark-circle'},
         ];
 
-        this.accountMenuItems = [
-            {title: 'Akun Saya', component: WelcomePage, icon: 'ios-contact'},
-            {title: 'Keluar', component: WelcomePage, icon: 'log-out'},
+        this.priceMenuItems = [
+            {title: 'Lihat Semua Harga', component: PropertyListPage, icon: 'pricetags'},
+            {title: 'Harga Per Kategori', component: BrokerListPage, icon: 'apps'},
         ];
 
         this.helpMenuItems = [
-            {title: 'Beranda', component: WelcomePage, icon: 'bookmark'},
             {title: 'Tentang', component: AboutPage, icon: 'information-circle'},
         ];
 
